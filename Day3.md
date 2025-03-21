@@ -94,7 +94,7 @@ curl <url>
 
  - open the url in browser
 
-![alt text](image-9.png)
+![alt text](./Outputs_day3/image-9.png)
 
 
 ## Config file codes
