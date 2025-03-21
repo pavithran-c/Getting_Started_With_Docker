@@ -8,8 +8,8 @@ sudo systemctl enable docker --now
 docker
 ```
 
-![alt text](image.png)
-![alt text](image-1.png)
+![alt text](./Outputs/image.png)
+![alt text](./Outputs/image-1.png)
 
 ## Download Docker plugins in Jenkins
  - Go to Jenkins `Dashboard` -> `Manage Jenkins` -> `Available Plugins` -> Search `Docker`
@@ -20,8 +20,8 @@ docker
     - docker-build-step
     - CoudBees Docker Build and Publish
 
-![alt text](image-2.png)
-![alt text](image-3.png)
+![alt text](./Outputs/image-2.png)
+![alt text](./Outputs/image-3.png)
 
 
 
@@ -38,7 +38,7 @@ sudo reboot
  - Go to Jenkins > `Manage Jenkins` > `Credentials` > `System` > `Global Credentials (Unrestricted)` > `Add Credentials`
  -  Fill your Docker hub `username` , `password`, and in the `id` field enter `docker-seccred`
 
-![alt text](image-4.png)
+![alt text](./Outputs/image-4.png)
 
 ## Creating and building a pipeline
 
@@ -120,10 +120,10 @@ pipeline {
  - click `save`
  - click `build`
 
-![alt text](image-5.png)
+![alt text](./Outputs/image-5.png)
 
  - Go to Docker Hub to see your image pushed there
 
-![alt text](image-6.png)
+![alt text](./Outputs/image-6.png)
 
 
