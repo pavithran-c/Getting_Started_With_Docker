@@ -20,7 +20,7 @@ docker
     - docker-build-step
     - CoudBees Docker Build and Publish
 
-![alt text](./Outputs/image-2.png)
+![alt text](./Outputs_/image-2.png)
 ![alt text](./Outputs/image-3.png)
 
 
