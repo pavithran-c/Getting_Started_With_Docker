@@ -1,3 +1,7 @@
+# Configuring Node port
+
+service.yaml
+```groovy
 apiVersion: v1
 kind: Service
 metadata:
@@ -12,3 +16,4 @@ spec:
       port: 80       # Service port inside the cluster
       targetPort: 80  # The container's port
       nodePort: 30391   # Externally accessible port
+```
